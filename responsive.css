@@ -1,0 +1,89 @@
+/* For Tablets */
+@media all and (max-width: 1000px) {
+  .top-wrapper h1 {
+    font-size: 32px;
+  }
+
+  .heading h2 {
+    font-size: 20px;
+  }
+  
+  .lesson {
+    width: 50%;
+    margin-bottom: 50px;
+  }
+}
+
+/* For Smartphones */
+@media all and (max-width: 670px) {
+  .header-right {
+    display: none;
+  }
+  
+  .menu-icon {
+    display: block;
+  }
+  
+  .btn {
+    width: 100%;
+  }
+
+  .facebook {
+    margin-bottom: 10px;
+  }
+  
+  .top-wrapper {
+    text-align: left;
+  }
+  
+  .top-wrapper h1 {
+    font-size: 24px;
+    line-height: 36px;
+  }
+  
+  .top-wrapper p {
+    font-size: 14px;
+    line-height: 20px;
+  }
+  
+  .lesson {
+    width: 100%;
+  }
+  
+  footer {
+    text-align: center;
+  }
+}
+
+body {
+  background-image: url(https://static.makeuseof.com/wp-content/uploads/2018/09/beginner-projects-programmers-670x335.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+h1 {
+  font-size: 50px;
+  font-weight: bolder;
+  text-align: center;
+  text-decoration: solid;
+  margin-top: 50px;
+  color: darkblue;
+}
+
+.tab-left {
+  font-size: 20px;
+  font-weight: bold;
+  position:absolute;
+  left:150px;
+  color: darkgreen;
+  text-decoration: solid;
+}
+
+.tab-right {
+  font-size: 20px;
+  font-weight: bold;
+  position:absolute;
+  left:850px;
+  color: darkgreen;
+  text-decoration: solid;
+}
